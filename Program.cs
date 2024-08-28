@@ -1,7 +1,4 @@
-﻿using System.Net.Http.Headers;
-using System.Threading.Tasks;
-
-namespace design_patterns;
+﻿namespace design_patterns;
 
 class Program
 {
@@ -119,7 +116,7 @@ class Program
 
         Console.WriteLine("Implentation with Factory");
 
-        ICamera camera1 =  CameraFactory.GetCamera(cameraModel);
+        ICamera camera1 = CameraFactory.GetCamera(cameraModel);
         Console.WriteLine("CameraModel : " + camera1.CameraModel());
         Console.WriteLine("Camera Quality : " + camera1.Quality());
 
