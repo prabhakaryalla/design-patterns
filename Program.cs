@@ -137,4 +137,6 @@ class Program
     public Task Method1() => null;
 
     public Task Method2() => Task.CompletedTask;
+
+    public Task Method4() => Task.CompletedTask;
 }
