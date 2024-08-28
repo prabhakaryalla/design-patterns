@@ -134,6 +134,7 @@ class Program
     }
     #endregion
 
-    public Task Method1 { get; set; }
-    public Task Method2 { get; set; }
+    public Task Method1() => null;
+
+    public Task Method2() => Task.CompletedTask;
 }
